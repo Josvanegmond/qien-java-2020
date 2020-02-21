@@ -16,11 +16,11 @@ public class MainArrayList {
         Scanner scanner = new Scanner(System.in);
 
 //        FIXME: initialize the arraylist correctly
-        ArrayList<Task> taskList = null;
+//        ArrayList<Task> taskList = null;
 
 //        FIXME: printTasks method is not finished yet
         System.out.println("Your tasks for today:");
-        printTasks(taskList, DaysOfWeek.FRIDAY);
+//        printTasks(taskList, DaysOfWeek.FRIDAY);
 
 //        TODO: Create a Task class that saves the given taskinfo and the weekday
 //          - uncomment below lines to test the code
@@ -38,9 +38,9 @@ public class MainArrayList {
 
     }
 
-    private static void printTasks(List<Task> taskList, DaysOfWeek day) {
+//    private static void printTasks(List<Task> taskList, DaysOfWeek day) {
 //        TODO: print out all tasks in the list for the given day
 //          - use System.out.println(task) to print out the task
 //          - if the list is empty, print "No tasks, all done!"
-    }
+//    }
 }
