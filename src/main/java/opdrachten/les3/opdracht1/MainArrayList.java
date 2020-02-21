@@ -12,20 +12,6 @@ public class MainArrayList {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
     }
 
-    public static class Task {
-        String taskInfo;
-        DaysOfWeek day;
-        public Task(String taskInfo, DaysOfWeek day) {
-            this.taskInfo = taskInfo;
-            this.day = day;
-        }
-
-        @Override
-        public String toString() {
-            return taskInfo;
-        }
-    }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
